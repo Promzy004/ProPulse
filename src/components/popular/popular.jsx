@@ -10,7 +10,7 @@ function Popular() {
             <div className="popular-items">
               <div className='row'>
                 {popular_product.map((items,index) => (
-                  <div className='col-4 column'>
+                  <div className='col-6 col-md-4 column'>
                     <ItemCard key={index} id={items.id} name={items.name} image={items.image} discount={items.discount} old_price={items.old_price} />
                   </div>
             

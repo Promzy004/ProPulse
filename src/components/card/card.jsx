@@ -36,6 +36,7 @@ function ItemCard(props) {
                     </div>
                 </div>
             </div>
+            {console.log(window.innerWidth)}
         </>
     )
 }
