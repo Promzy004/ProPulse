@@ -1,0 +1,118 @@
+.navbar{
+    position: sticky;
+    top: 0;
+}
+
+.ham{
+    border: none;
+}
+
+.ham:active{
+    background-color: rgb(232, 230, 230) !important;
+}
+
+div > input{
+    width: 40vw;
+    border: 1px solid rgb(193, 191, 191);
+    border-radius: 6px;
+    outline: none;
+    padding-left: 10px;
+}
+
+div > input::placeholder{
+    font-size: 15px;
+}
+
+.right-container{
+    display: flex;
+    gap: 2vw;
+    align-items: center !important;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    position: relative !important;
+}
+
+.right-container > a{
+    text-decoration: none;
+    color: black;
+}
+.right-container p:hover{
+    color: green;
+    border-bottom: 2px solid red;
+}
+
+.right-container  p{
+    margin: 1rem 0;
+}
+
+.input-group > button{
+    background-color: #27ae60 !important;
+}
+
+.cart-counter{
+    background-color: red;
+    padding: 0 0.2rem;
+    border-radius: 80%;
+    font-size: x-small;
+    color: white;
+    position: absolute;
+    left: 1.4rem;
+    top: 0.8rem;
+}
+
+.navlink-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    top: 4rem;
+    left: 7vw;
+    /* left: 5.5rem; */
+    border-radius: 3px;
+    padding-left: 0.5rem;
+    padding-right: 6rem;
+    box-shadow: 0 0 5px 2px rgba(112,121,138,.18);
+}
+
+.navlink-container img{
+    margin-right: 4px;
+}
+
+.navlink-container p{
+    display: inline-block;
+    font-size: 0.8rem;
+}
+
+
+.navlink-container .nav-link:hover{
+    color: #27ae60;
+}
+
+.navlink-container .nav-link{
+    padding-bottom: 0.001rem;
+}
+
+.navlink-container > p{
+    padding-top: 1rem;
+    padding-left: 0.3rem;
+}
+
+hr{
+    position: absolute;
+    width: 90%;
+    top: 5rem;
+}
+
+.remove-links{
+    display: none;
+}

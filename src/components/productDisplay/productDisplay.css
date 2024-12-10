@@ -1,0 +1,149 @@
+.productdisplay{
+    display: flex;
+    margin: 0 8vw;
+}
+
+.productdisplay-left{
+    display: flex;
+    gap: 1vw;
+}
+
+.productdisplay-img-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2vw;
+}
+
+.productdisplay-img-list img{
+    height: 7.5vw;
+}
+
+.productdisplay-main{
+    height: 35vw;
+}
+
+.productdisplay-right{
+    margin: 0 5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.productdisplay-right h1{
+    color: #3d3d3d;
+    font-size: 2.3vw;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.product-display-right-star{
+    margin-top: 1vw;
+}
+
+.productdisplay-right-prices{
+    display: flex;
+    margin: 1.5vw 0;
+    gap: 2vw;
+    font-size: 1.5vw;
+    font-weight: 700;
+}
+
+.productdisplay-right-price-old{
+    color: #818181;
+    text-decoration: line-through;
+}
+
+.productdisplay-right-price-new{
+    color: black;
+}
+
+.productdisplay-right-size h1{
+    margin-top: 1vw;
+    color: #656565;
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+
+.productdisplay-right-sizes{
+    display: flex;
+    margin: 1.5vw 0;
+    gap: 1vw;
+}
+
+.productdisplay-right-sizes div{
+    padding: 0.5vw 1vw;
+    background: #fbfbfb;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    cursor: pointer;
+    /* width: 3.5vw; */
+    font-size: 1vw;
+}
+
+.productdisplay-right button{
+    /* padding: 1vw 2vw; */
+    width: 10vw;
+    height: 3vw;
+    font-size: 1vw;
+    font-weight: 600;
+    color: white;
+    background: #ff4141;
+    margin-bottom: 1vw;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.productdisplay-right-category{
+    margin-top: 1vw;
+    font-size: 1.5vw;
+}
+
+.productdisplay-right-category span{
+    font-weight: 600;
+}
+
+@media screen and (max-width: 520px) {
+
+    .productdisplay{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .product-display-img{
+        margin: 0 auto;
+    }
+
+    .productdisplay-left{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .productdisplay-main{
+        height: 50vw;
+    }
+
+    .productdisplay-img-list{
+        display: flex;
+        flex-direction: row;
+        gap: 2vw;
+        margin: 0 auto;
+    }
+
+    .productdisplay-img-list img{
+        height: 12vw;
+    }
+
+    .productdisplay-right button{
+        /* padding: 1vw 2vw; */
+        width: 15vw;
+        height: 5vw;
+        font-size: 1vw;
+        font-weight: 600;
+        color: white;
+        background: #ff4141;
+        margin-bottom: 1vw;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,149 @@
+.wrapper{
+    padding: 1rem 0;
+    height: 5rem;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+.wrapper > div{
+    padding: 0 4vw;
+}
+
+.left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 3vw;
+}
+
+.ham{
+    border: none;
+    background-color: none;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-group > input{
+    width: 30vw !important;
+    border: 1px solid rgb(193, 191, 191);
+    border-radius: 6px;
+    outline: none !important;
+    padding-left: 10px;
+}
+
+.input-group > input::placeholder{
+    font-size: 15px;
+}
+
+.input-group > button{
+    background-color: #27ae60;
+}
+
+.right{
+    padding-right: 5rem;
+}
+
+.right-container{
+    display: flex;
+    justify-content: flex-end;
+    gap: 2vw;
+}
+
+.right-container > a{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.right-container p:hover{
+    color: green;
+    border-bottom: 2px solid red;
+}
+
+.right-container p{
+    margin-top: 0.7rem;
+}
+
+.cart{
+    position: relative;
+}
+
+.cart-counter{
+    background-color: red;
+    padding: 0 0.2rem;
+    border-radius: 80%;
+    font-size: x-small;
+    color: white;
+    position: absolute;
+    left: 1.4rem;
+    top: 0.6rem;
+}
+
+.navlink-container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: absolute;
+    top: 4.5rem;
+    left: 4.5vw;
+    /* left: 5.5rem; */
+    border-radius: 3px;
+    padding-left: 0.5rem;
+    padding-right: 6rem;
+    padding: 0.5rem 6rem 0.5rem 0.5rem;
+    box-shadow: 0 0 5px 2px rgba(112,121,138,.18);
+}
+
+.navlink-container img{
+    margin-right: 4px;
+}
+
+.navlink-container p{
+    display: inline-block;
+    font-size: 0.8rem;
+}
+
+.navlink-container .nav-link:hover{
+    color: #27ae60;
+}
+
+.navlink-container > p{
+    padding-top: 1rem;
+    padding-left: 0.1rem;
+    opacity: 80%;
+}
+
+ul hr{
+    position: absolute;
+    width: 90%;
+    top: 2rem;
+}
+
+.remove-links{
+    display: none;
+}
+
+.ham:active{
+    background-color: rgb(232, 230, 230) !important;
+}
+
+@media screen and (max-width : 570px) {
+
+    .cart-counter{
+        top: 0.1rem;
+    }
+}
+@media screen and (max-width : 500px) {
+
+    .cart-counter{
+        top: 0.2rem;
+    }
+}
