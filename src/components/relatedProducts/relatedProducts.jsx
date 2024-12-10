@@ -23,7 +23,7 @@ const RelatedProducts = ({currentID, category}) => {
                 <div className="relatedproduct-items">
                 <div className='row'>
                     {related_product.map((items,index) => (
-                    <div className='col-4 column'>
+                    <div className='col-6 col-md-4 column'>
                         <ItemCard key={index} id={items.id} name={items.name} image={items.image} discount={items.discount} old_price={items.old_price} />
                     </div>
                 

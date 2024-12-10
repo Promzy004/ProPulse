@@ -44,9 +44,6 @@ function ProductDisplay () {
                         <div className="productdisplay-right-price-old">{`\u20A6`} {(product.old_price).toLocaleString()}</div>
                         <div className="productdisplay-right-price-new">{`\u20A6`} {(new_price).toLocaleString()}</div>
                     </div>
-                    {/* <div className="productdisplay-right-description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit exercitationem quibusdam illo omnis pariatur optio consequuntur dignissimos expedita possimus quia.
-                    </div> */}
                     <div className="productdisplay-right-size">
                         <h1>Select Size</h1>
                         <div className="productdisplay-right-sizes">
