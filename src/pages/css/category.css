@@ -34,3 +34,52 @@
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 3.5vw;
 }
+
+@media screen and (max-width: 767px) {
+
+
+    .category-banner{
+        display: block;
+        margin: 1.5vw auto 1vw auto;
+        width: 82%;
+    }
+
+    .products {
+        grid-template-columns: 1fr 1fr ;
+        row-gap: 5vw;
+        column-gap: 7vw;
+    }
+}
+
+
+.relatedproduct{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5vw;
+    padding-bottom: 5vw;
+}
+
+.relatedproduct h1{
+    color: #000000;
+    font-size: 4vw;
+    font-weight: 600;
+    margin-bottom: 6vw;
+}
+
+.relatedproduct-items{
+    margin-top: 1vw;
+    display: flex;
+    justify-content: center;
+    padding: 0 1vw;
+}
+
+.column{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.5vw;
+}
+
+.row{
+    padding: 0 10vw;
+}

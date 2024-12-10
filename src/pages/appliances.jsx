@@ -20,11 +20,12 @@ function Appliances() {
                     </p>
                 
                 </div> 
-                    <div className="products">
-                        {all_products.filter(items => items.category === 'Appliances').map((items,index) => {
-                            return <ItemCard key={index} id={items.id} name={items.name} image={items.image} discount={items.discount} old_price={items.old_price} /> 
-                        })}
-                    </div>
+                <div className="products">
+                    {all_products.filter(items => items.category === 'Appliances').map((items,index) => {
+                        return <ItemCard key={index} id={items.id} name={items.name} image={items.image} discount={items.discount} old_price={items.old_price} /> 
+
+                    })}
+                </div>
             </div>
             <Footer/>
         </>

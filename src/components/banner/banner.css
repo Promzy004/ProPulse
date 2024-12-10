@@ -1,7 +1,7 @@
 .banner{
     display: flex;
     background: linear-gradient(90deg, #fce6e5, #e1ffea22 70%);
-    height: 20vw;
+    height: 30vw;
     align-items: center;
     gap: 15vw;
     padding: 0 7vw;

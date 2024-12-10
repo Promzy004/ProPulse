@@ -53,7 +53,7 @@ const Header = () => {
                             </div>
                         </form>
                             <ul className={navList ? 'navlink-container' : 'remove-links'}>
-                                <Link to="/" className='nav-link'>
+                                <Link to="/" className='nav-link' onClick={() => setNavList(!navList)}>
                                     <img src={home} alt="" width={20}/>
                                     <p>Home</p>
                                 </Link>
